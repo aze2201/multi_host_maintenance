@@ -1,4 +1,4 @@
-# multi_host_maintenance
+# multihost daily maintenance
 
 run.sh script will execute remote_command.sh scipt on remote host. So you can open and change remote_command.sh script as you wish.
 run.sh will use hosts.info file to get ip|user|pasword
