@@ -9,7 +9,8 @@ protocol will use ssh and sftp
 example:
 1.   modify hosts.info file according your system config
   
-2.   optional: modify add some command or function to remote_command.sh command
+2.   optional: modify add some command or function to remote_command.sh command;  you can extend command list cmdlist ( ; separated )
 3.   chmod +x run.sh
+4.   dos2unix *
 4.   ./run.sh
 5.   it will create log folder and indisde log folder will create txt output for each host.
